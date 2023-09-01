@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Overpass:wght@400;700&display=swap');
+
+body{
+  font-family: "Overpass",sans-serif;
+  font-size: 15px;
+  background-color:  hsl(216, 12%, 8%);
+  justify-content: center;
+  align-items: center;
+  margin:1.5 rem;
+  display: flex;
+  flex-direction: column;
+  min-height:100vh;
+}
+
+.main-container,.thankyou{
+  background-color:hsl(213, 19%, 18%) ;
+  padding:1.5rem;
+  border-radius: 0.625 rem;
+  padding:1.5rem;
+  max-width: 400px;
+}
+
+.main-container img{
+  border-radius: 50%;
+  background-color:hsl(213, 20%, 22%) ;
+  padding: 0.5rem;
+}
+
+.main-container h1{
+  color:#fff;
+  margin:2rem 0 1rem;
+}
+
+.main-container p{
+  color:hsl(217, 12%, 63%);
+  margin-bottom: 1rem;
+}
+
+.main-container ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.main-container ul li button{
+  border-radius: 50%;
+  border:none;
+  width:3rem;
+  height:3rem;
+  padding-top:0.2rem;
+  color:#fff;
+  background-color:hsl(213, 20%, 22%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main-container ul li button:hover{
+background-color:hsl(25, 97%, 53%);
+}
+
+.main-container ul li button:focus{
+  background-color:hsl(217, 12%, 63%);
+  }
+
+p{
+  line-height: 1.7;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button{
+  font-family: inherit;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.btn-submit{
+  background-color:hsl(25, 97%, 53%);
+  cursor: pointer;
+  border:none;
+  border-radius: 30px;
+  width:100%;
+  padding:0.8rem 0 0.6rem;
+  color:#fff;
+  font-size:1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: 0.3s;
+
+}
+
+.btn-submit:hover{
+  background-color: #fff;
+  color:hsl(25, 97%, 53%);
+}
+
+
+.thankyou{
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.thankyou img{
+display: block;
+margin: 0 auto 2rem;
+}
+
+.thankyou p.gray{
+background-color: hsl(213, 20%, 22%);
+border-radius: 30px;
+color:hsl(25, 97%, 53%);
+padding: 0.2rem 0.5rem 0;
+font-size: 0.9rem;
+margin-bottom: 2rem;
+}
+
+.thankyou h2{
+  color:#fff;
+  margin-bottom: 1rem;
+}
+
+.thankyou p{
+  color:hsl(217, 12%, 63%);
+  margin-bottom: 2rem;
+}
+
+.hidden{
+  display: none;
+}
+
+.attribution 
+{ font-size: 14px; 
+  text-align: center;
+  color:#fff;
+  margin-top: 2rem;
+ }
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+   }
